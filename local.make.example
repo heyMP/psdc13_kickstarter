@@ -8,20 +8,6 @@ includes[] = "drupal-org.make"
 
 ; +++++ TODO modules without versions +++++
 
-projects[kickstart_banner][version] = "" ; TODO add version
-projects[kickstart_banner][subdir] = "custom"
-
-projects[kickstart_contexts][version] = "" ; TODO add version
-projects[kickstart_contexts][subdir] = "custom"
-
-projects[kickstart_news][version] = "" ; TODO add version
-projects[kickstart_news][subdir] = "custom"
-
-projects[kickstart_site_settings][version] = "" ; TODO add version
-projects[kickstart_site_settings][subdir] = "custom"
-
-projects[kickstart_staff][version] = "" ; TODO add version
-projects[kickstart_staff][subdir] = "custom"
 
 ; +++++ Libraries +++++
 
