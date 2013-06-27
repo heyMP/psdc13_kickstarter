@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Kickstart News feature.
+ */
+
+include_once 'kickstart_news.features.inc';

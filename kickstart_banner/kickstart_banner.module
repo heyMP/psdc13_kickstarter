@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Kickstart Banner feature.
+ */
+
+include_once 'kickstart_banner.features.inc';

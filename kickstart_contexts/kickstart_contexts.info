@@ -1,0 +1,12 @@
+name = Kickstart Contexts
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = features
+dependencies[] = views
+features[context][] = homepage
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+features[user_permission][] = administer contexts

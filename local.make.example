@@ -1,0 +1,34 @@
+; psdc_2013_kickstart make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ TODO modules without versions +++++
+
+projects[kickstart_banner][version] = "" ; TODO add version
+projects[kickstart_banner][subdir] = "custom"
+
+projects[kickstart_contexts][version] = "" ; TODO add version
+projects[kickstart_contexts][subdir] = "custom"
+
+projects[kickstart_news][version] = "" ; TODO add version
+projects[kickstart_news][subdir] = "custom"
+
+projects[kickstart_site_settings][version] = "" ; TODO add version
+projects[kickstart_site_settings][subdir] = "custom"
+
+projects[kickstart_staff][version] = "" ; TODO add version
+projects[kickstart_staff][subdir] = "custom"
+
+; +++++ Libraries +++++
+
+; Profiler
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][type] = "library"
+libraries[profiler][destination] = "../../profiles/psdc_2013_kickstart/libraries"
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
+

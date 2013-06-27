@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Kickstart Staff feature.
+ */
+
+include_once 'kickstart_staff.features.inc';

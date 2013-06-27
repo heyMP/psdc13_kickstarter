@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Kickstart Site Settings feature.
+ */
+
+include_once 'kickstart_site_settings.features.inc';
